@@ -5,8 +5,9 @@ const ExpenseItem = (props) =>{
     return (
     <Card className="expense-item"> 
         <h1>{props.title}</h1>
-        <button>Buton1</button>
-    </Card>)
+    </Card>
+    )
+
 }
 
 export default ExpenseItem;
